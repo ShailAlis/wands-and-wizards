@@ -1,0 +1,65 @@
+name: Bug report
+description: Something in Wands & Wizards does not work as it should in Foundry.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      placeholder: "I cast Bombarda at a goblin and it died instead of being knocked out."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the sheet of…
+        2. Cast…
+        3. …
+  - type: input
+    id: module
+    attributes:
+      label: Wands & Wizards version
+      description: As shown in Add-on Modules (e.g. 1.0.0).
+    validations:
+      required: true
+  - type: input
+    id: foundry
+    attributes:
+      label: Foundry VTT version
+      placeholder: "14.369"
+    validations:
+      required: true
+  - type: input
+    id: dnd5e
+    attributes:
+      label: dnd5e version
+      placeholder: "6.0.6"
+    validations:
+      required: true
+  - type: input
+    id: midi
+    attributes:
+      label: Midi-QOL version
+      placeholder: "14.6.4"
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Drop a screenshot of the screen or of the console (F12) here.
+  - type: dropdown
+    id: blocking
+    attributes:
+      label: Does it stop the game?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
