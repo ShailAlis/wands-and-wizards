@@ -1,6 +1,6 @@
 name: Bug report
 description: Something in Wands & Wizards does not work as it should in Foundry.
-labels: ["bug"]
+labels: ["bug", "triage"]
 body:
   - type: textarea
     id: what
@@ -49,6 +49,17 @@ body:
     attributes:
       label: Midi-QOL version
       placeholder: "14.6.4"
+  - type: input
+    id: dae
+    attributes:
+      label: DAE version
+      placeholder: "14.6.3"
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Filled in by the module's bug report button. Leave it empty if you write the issue by hand.
+      render: text
   - type: textarea
     id: screenshot
     attributes:

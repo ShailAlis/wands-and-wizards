@@ -40,7 +40,9 @@ Foundry tells you when a new version is out (**Add-on Modules → Check for Upda
 
 ## Reporting a bug
 
-Open an issue in [this repository](https://github.com/ShailAlis/wands-and-wizards/issues/new/choose) with the module, Foundry, dnd5e and Midi-QOL versions, and what you expected to happen.
+From Foundry: in the **Settings** tab of the sidebar, press **Report a W&W bug**. Describe what happened and what you expected; the next step shows exactly what will be published, with the module, Foundry, dnd5e, Midi-QOL and DAE versions, your active modules and the module's recent errors (untick what you would rather leave out). **Open in GitHub** opens this repository's bug form already filled in: you need a GitHub account, the issue is public, and nothing is sent until you press *Submit new issue* there, where you can also drop a screenshot. The GM decides who sees the button with the *Bug reports* world setting (GM and players, GM only, or off).
+
+You can also open an issue [here](https://github.com/ShailAlis/wands-and-wizards/issues/new/choose) by hand, with the module, Foundry, dnd5e and Midi-QOL versions, and what you expected to happen.
 
 ## Credits and legal
 
@@ -59,4 +61,4 @@ Módulo de Foundry VTT que adapta **Wands & Wizards**, la adaptación de Harry P
 - **Instalación:** en Foundry, *Módulos → Instalar módulo*, pega la URL de manifiesto de arriba y pulsa *Instalar*. Al abrir el mundo, el módulo ofrece pasar dnd5e a las reglas de 2014 si aún no lo están.
 - **Requisitos:** los de la tabla de arriba. Midi-QOL y DAE tienen que ser de la rama `dnd6`: instálalos con los dos manifiestos de arriba, DAE primero.
 - **Actualizar:** Foundry avisa de cada versión nueva. Los cambios en los datos del mundo se migran solos al entrar el GM, pero los objetos que ya están en las fichas no cambian: para recoger una corrección, bórralo de la ficha y vuelve a arrastrarlo desde el compendio.
-- **Fallos:** abre una issue en este repositorio con las versiones del módulo, de Foundry, de dnd5e y de Midi-QOL.
+- **Fallos:** en la pestaña **Ajustes** de la barra lateral, pulsa **Informar de un fallo de W&W**. Cuenta qué pasó y qué esperabas; el paso siguiente enseña exactamente lo que se publicará (versiones, módulos activos y errores recientes del módulo, que puedes quitar) y **Abrir en GitHub** abre el formulario de este repositorio ya rellenado. Necesitas una cuenta de GitHub, la issue es pública y no se envía nada hasta que pulses *Submit new issue*. El máster decide quién ve el botón con el ajuste del mundo *Informes de fallos*. También puedes abrir la issue a mano con las versiones del módulo, de Foundry, de dnd5e y de Midi-QOL.
